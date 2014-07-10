@@ -120,7 +120,7 @@ body #nav > ul > li > span
 
 body #nav > ul > li:hover
 {
-	background: #3AA6D0;
+	background: #E1C452;
 	height: 15%;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
 }
@@ -197,6 +197,16 @@ input[type="radio"]
 	min-width: 100%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+
+	-webkit-transition: all 0.2s; /* Chrome antiguo y Safari */
+    -moz-transition: all 0.5s; /* Mozilla antiguo */
+    -o-transition: all 0.5s; /* Opera antiguo */
+    transition: all 0.2s; /* Regla estandar */
+}
+
+.p:hover
+{
+	background-color: #E1C452;
 }
 
 .botones

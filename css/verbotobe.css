@@ -197,6 +197,16 @@ input[type="radio"]
 	min-width: 100%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+
+	-webkit-transition: all 0.2s; /* Chrome antiguo y Safari */
+    -moz-transition: all 0.5s; /* Mozilla antiguo */
+    -o-transition: all 0.5s; /* Opera antiguo */
+    transition: all 0.2s; /* Regla estandar */
+}
+
+.p:hover
+{
+	background-color: #D01350;
 }
 
 .botones
