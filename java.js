@@ -262,7 +262,7 @@ function final2(obj)
         alert("¡Felicitaciones! Has terminado. Tu puntuación final sobre 10 es: "+contador);
       }
 
-      else {
+      else { 
         alert("Has terminado, tu puntuación final sobre 10 es: "+contador);
       }
 

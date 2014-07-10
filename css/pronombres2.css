@@ -605,6 +605,11 @@ input[type="radio"]
 	min-width: 100%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+
+	-webkit-transition: all 0.5s; /* Chrome antiguo y Safari */
+    -moz-transition: all 0.5s; /* Mozilla antiguo */
+    -o-transition: all 0.5s; /* Opera antiguo */
+    transition: all 0.5s; /* Regla estandar */
 }
 
 .p:hover
