@@ -191,6 +191,7 @@ input[type="radio"]
 .p
 {	
 	border: none;
+	background-image: width: 100%;
 	background-color: #D3D3D3;
 	font-size: 1em;
 	margin-bottom: 2%;
